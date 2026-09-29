@@ -1,0 +1,22 @@
+# secrets
+.env
+*.key
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+# ML artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+checkpoints/
+wandb/
+outputs/
+data/
+# os / editor
+.DS_Store
+.vscode/
+.idea/
